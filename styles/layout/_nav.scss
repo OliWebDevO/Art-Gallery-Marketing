@@ -1,0 +1,194 @@
+// TOP BAR
+
+.top-bar {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #130d05;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.breadcrumb {
+  
+   a:not(:first-of-type):before {
+    content: "/";
+    color: #c2b9af;
+    margin: 0 10px 0 5px;
+    vertical-align: middle;
+}
+   padding-left: 50px;
+}
+.follow {
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+.f-text {
+    color: white;
+    margin-right: 20px;
+}
+
+// BARRE DE NAVIGATION
+nav {
+    z-index: 3;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: ease-in-out .5s;
+    border-radius: 8px;
+    .link {
+        color: transparent;
+    }
+    i {
+        color: transparent;
+    }
+    .n-logo {
+        color: transparent;
+    }
+    .n-user-links a{
+        color: transparent;
+      
+        i { 
+            color: transparent;
+        }
+        }
+        .bell-num {
+            color: transparent;
+            background-color: transparent;
+        }
+        .mess-num {
+            background-color: transparent;
+        }
+}
+.translateUp {
+    display: flex;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    padding: 0 5.5vw;
+    width: calc(100% - 20px);
+    color: black;
+    background-color:rgba(255, 255, 255, 0.936);
+    transition: ease-in-out .5s;
+    border-radius: 8px 8px 8px 8px;
+    .link {
+        color: black;
+    }
+    .join-us {
+        padding: 10px 20px;
+        background-color: orange;
+        border-radius: 8px;
+        color: white;
+    }
+    .n-logo {
+        color: darkblue;
+    }
+    .n-user-links a{
+        color: white;
+      
+        i { 
+            color: rgba(77, 73, 73, 0.555);
+        }
+        }
+        .bell-num {
+            background-color: orange;
+        }
+        .mess-num {
+            background-color:orange;
+        }
+
+}
+
+.n-nav {
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li {
+            padding-right: 30px;
+        }
+    }
+}
+.n-logo {
+    font-family: "Playfair Display", serif;
+    color: darkblue;
+    padding-left: 50px;
+    font-size: 22px;
+}
+.n-user-profil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 35px;
+}
+.border-nav {
+    background-color: #130d0595;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+.n-user-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-position: center;
+    object-fit: cover;
+    margin-right: 30px;
+}
+.n-user-links a{
+color: white;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+i { 
+    color: darkblue;
+    font-size: 25px;
+    transition: ease-in-out .5s;
+    &:hover{
+        color: orange;
+        transition: ease-in-out .5s;
+    }
+}
+}
+.n-user-links{
+display: flex;
+margin-right: 20px;
+}
+.n-user-bell {
+    margin-right: 30px;
+    position: relative;
+}
+.bell-num{
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    background-color: darkblue;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
+}
+.n-user-mess {
+    position: relative;
+}
+.mess-num{
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    background-color: darkblue;;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
+}
+
+
+// .notif {
+//     position: absolute;
+// }
